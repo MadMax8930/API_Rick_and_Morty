@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:'Rock Salt';
+}
+
+.coupure_image {
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.left {
+	display: block;
+	width: 100%;
+	&_image {
+		position: relative;
+		width: 33.1%;
+	}
+	&_overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0);
+		opacity: 0;
+		transition: opacity 0.25s;
+		font-family: 'Rock Salt';
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&:hover {
+			opacity: 0.4;
+		}
+	}
+	&_description  {
+		font-size: 2em;
+		font-weight: bold;
+		color: white;
+	}
+}
+
+.center {
+	display: block;
+	width: 100%;
+	&_image {
+		position: relative;
+		width: 33.1%;
+	}
+	&_overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0);
+		opacity: 0;
+		transition: opacity 0.25s;
+		color: white;
+		font-family: 'Rock Salt';
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&:hover {
+			opacity: 0.4;
+		}
+	}
+	&_description  {
+		font-size: 2em;
+		font-weight: bold;
+	}
+}
+
+.right {
+	display: block;
+	width: 100%;
+	&_image {
+		position: relative;
+		width: 33.1%;
+	}
+	&_overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0);
+		opacity: 0;
+		transition: opacity 0.25s;
+		color: white;
+		font-family: 'Rock Salt';
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&:hover {
+			opacity: 0.4;
+		}
+	}
+	&_description  {
+		font-size: 2em;
+		font-weight: bold;
+	}
+}

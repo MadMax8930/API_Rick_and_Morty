@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/assets/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cercle {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  transform: translate(50%, 50%);
+  &:hover {
+    border: 1px solid black;
+    background-color: transparent;
+    a{
+      color: white;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+}
